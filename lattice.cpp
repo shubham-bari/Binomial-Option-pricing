@@ -4,7 +4,7 @@ using namespace std;
 
 double callPrice(int S, int K, double sigma, double r, int T, int N)
 {
-    
+    return 1.1f;
 }
 
 int main()
@@ -20,7 +20,5 @@ int main()
 
     double call = callPrice(S, K, sigma, r, T, N);
     cout<<call<<endl;
-
-
-
+    return 0;
 }
